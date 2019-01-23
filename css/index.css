@@ -134,21 +134,99 @@ html,
 body {
   height: 100%;
 }
+p font {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  color: #36454F;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
 .container {
   max-width: 800px;
   width: 100%;
+  margin: 0 auto;
 }
 .container nav {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  align-content: flex-end;
-  border: 0.1px solid red;
+}
+.container nav .nav-items {
+  width: 35%;
+  padding: 2% 0 2% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.container nav .nav-items a {
+  text-decoration: none;
+  color: #36454F;
 }
 .container header {
-  border: 0.1px solid green;
+  padding-bottom: 4%;
+  background-color: #E8EBEE;
+}
+.container header .headshot {
+  padding: 6% 4%;
 }
 .container header .headshot img {
   max-width: 360px;
   width: 35%;
+}
+.container header h1 {
+  margin: 1.8%;
+  font-size: 2.4rem;
+}
+.container header .tech {
+  margin: 1.8%;
+  padding-bottom: 3%;
+  border-bottom: 1px solid #7F7F7F;
+}
+.container header p {
+  margin: 1.8%;
+  padding: 1% 0;
+}
+.container header .team-button {
+  width: 18%;
+  margin: 1.8%;
+  padding: 1%;
+  border-radius: 3px;
+  background-color: #7F7F7F;
+}
+.container header .team-button p {
+  color: #E8EBEE;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+.container main {
+  margin: 1.8%;
+  display: flex;
+  justify-content: space-between;
+}
+.container main .left-box {
+  width: 45%;
+}
+.container main .left-box h2 {
+  margin-bottom: 2%;
+  font-size: 1.3rem;
+}
+.container main .left-box p {
+  margin-top: 5%;
+}
+.container main .right-box {
+  width: 45%;
+}
+.container main .right-box h2 {
+  margin-bottom: 5%;
+  font-size: 1.3rem;
+}
+.container main .right-box ul {
+  padding: 3%;
+  border: 1px solid #E8EBEE;
+}
+.container main .right-box ul:nth-of-type(even) {
+  background: #E8EBEE;
 }
